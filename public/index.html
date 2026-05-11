@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+  <nav>
+    <div class="logo">MyPortfolio</div>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  <section id="hero">
+    <h1>Hi, I'm <span>Hani Darji</span></h1>
+    <p>Full Stack Developer — I build web apps from frontend to backend.</p>
+    <a href="#projects" class="btn">View My Work</a>
+  </section>
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I'm a passionate developer who loves building projects using modern web technologies. I enjoy solving problems and learning new things every day.</p>
+  </section>
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>JavaScript</span>
+      <span>Node.js</span>
+      <span>Express.js</span>
+      <span>MySQL</span>
+      <span>Git</span>
+      <span>React.js</span>
+    </div>
+  </section>
+  <section id="projects">
+    <h2>Projects</h2>
+    <div id="projects-grid">
+      <p>Loading projects...</p>
+    </div>
+  </section>
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form id="contact-form">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+    <p id="form-message"></p>
+  </section>
+  <footer>
+    <p>© 2025 Your Name. All rights reserved.</p>
+  </footer>
+  <script src="/js/main.js"></script>
+</body>
+</html>
